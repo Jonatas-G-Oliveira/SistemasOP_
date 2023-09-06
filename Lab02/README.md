@@ -16,3 +16,4 @@ O que acontece se o programa anterior escreve-se as mensagens para sys.stdout, u
  	diretamente na saida de err (stderr),isso é constado ao utilizar condutores enviando relatorios para os arquivos 
 	stdout.log e stderr.log.Para mais informações olhar os prints.
 
+![Ex2](https://github.com/Jonatas-G-Oliveira/SistemasOP_/issues/2#issue-1883033763)
