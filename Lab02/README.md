@@ -16,6 +16,6 @@ O que acontece se o programa anterior escreve-se as mensagens para sys.stdout, u
  	diretamente na saida de err (stderr),isso é constado ao utilizar condutores enviando relatorios para os arquivos 
 	stdout.log e stderr.log.Para mais informações olhar os prints.
 
-Exemplo de saida antes de alterar o parametro 
+	Exemplo de saida antes de alterar o parametro 
 ![Ex2_Antes](https://github.com/Jonatas-G-Oliveira/SistemasOP_/assets/130922069/820d1b76-4a9b-47bc-b83c-907748d7b899)
 
