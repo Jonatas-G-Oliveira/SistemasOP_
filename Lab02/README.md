@@ -6,6 +6,7 @@ Rode o programa anterior para valores grandes de n. As mensagens sempre estarão
 	As mensagens sempre são ordenada,pois ao fim de um processo é executado outro de forma subsequente e
 	como o valor de i esta sendo incrementado,podemos dizer que ambos seguem um sentido crescente de ordem.		
 
+![Ex1](https://github.com/Jonatas-G-Oliveira/SistemasOP_/assets/130922069/bb4f0a59-f7af-4524-a4c2-a0f9aa75c0d0)
 
 ##Exercicio 2
 O que acontece se o programa anterior escreve-se as mensagens para sys.stdout, usando print, ao inves de para sys.stderr?
