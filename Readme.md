@@ -1,8 +1,8 @@
-Este é um repositório para guardar os exercicios da matério de SO.
+Este é um repositório criado para fins didáticos para a matéria de Sistemas Operacionais.
 
 Grupo:Só nos compuiter
 
-Integrantes::
+Integrantes:
 
 Pablo Borba Leal(Tia:42145333)
 Jonatas Garcia De Oliveira(Tia:4218232)
