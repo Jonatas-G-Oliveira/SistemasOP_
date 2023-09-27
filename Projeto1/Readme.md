@@ -10,10 +10,11 @@ O problema do código principal estava no fato de que as threads podiam alterar 
 Para resolver o problema utilizamos mutex.Os mutex são controladores para regiões criticas de memória,permitindo o bloqueio de uma variavel enquanto uma thread esta utilizando-a.
 
 ## Como compilar o programa
-	` gcc main.c -o <nomedoarquivo>.<extensaoa>`
+	` gcc main.c -o <nomedoarquivo>.<extensao>`
 
 ## Como executar o programa
-	`./<nomedoArquivoGerado>.<extensao>`
+	Para este programa é necessário passar o número de threads desejada por linha de código
+	`./<nomedoArquivoGerado>.<extensao>` <numeroDeThreads>
 
 
 ##Testes 
