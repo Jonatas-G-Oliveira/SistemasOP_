@@ -1,4 +1,4 @@
-#Lab 02 - Processos
+<h1>#Lab 02 - Processos
 
 ##Exercicio 1
 Rode o programa anterior para valores grandes de n. As mensagens sempre estarão ordenadas pelo valor de i?
