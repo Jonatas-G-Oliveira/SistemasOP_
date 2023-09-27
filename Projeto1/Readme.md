@@ -17,4 +17,7 @@ Para resolver o problema utilizamos mutex.Os mutex s√£o controladores para regi√
 	`./<nomedoArquivoGerado>.<extensao>` <numeroDeThreads>
 
 
-##Testes 
+##Testes
+	Transferindo 10 reais  entre as duas contas aleatoriamente
+	![alt](/assets/teste..jpg)
+	 
