@@ -19,5 +19,5 @@ Para resolver o problema utilizamos mutex.Os mutex s√£o controladores para regi√
 
 ##Testes
 	Transferindo 10 reais  entre as duas contas aleatoriamente
-	![alt](/assets/teste.jpg)
+	![alt](/Assets/teste.jpg)
 	 
