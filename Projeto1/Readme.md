@@ -19,6 +19,5 @@ Para resolver o problema utilizamos mutex.Os mutex s√£o controladores para regi√
 
 ## Testes
 	Transferindo 10 reais  entre as duas contas aleatoriamente
- ![Ex1](https://github.com/Jonatas-G-Oliveira/SistemasOP_/Projeto1/Assets/130922069/bb4f0a59-f7af-4524-a4c2-a0f9aa75c0d0)
  ![Ex1](https://github.com/Jonatas-G-Oliveira/SistemasOP_/blob/ae7e92d8f378e756adf2136441dd0664650d6ba9/Projeto1/Assets/teste.jpg)
- <img src="/Assets/teste.jpg">
+ 
