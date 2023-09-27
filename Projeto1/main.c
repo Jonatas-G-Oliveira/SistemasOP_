@@ -3,24 +3,31 @@
 #include<stdlib.h>
 #include<time.h>
 
+//Definindo a estrutura da conta
 struct c{
         int saldo;
 };
 typedef struct c conta;
 
-conta from,to;
-int valor;
-pthread_mutex_t mutex;
+
+//Definindo as variaveis globais
+conta from,to;		//Duas contas
+int valor;		//Valor que vai ser passado
+int transacoes;		//quantidade de transações
+pthread_mutex_t mutex;  
+
+
 
 void  *transferencia(void *threadId){
         long tid = (long)threadId;
         printf("--- Thread %ld em execução ---\n ", pthread_self());
 
-        int aleatorio = rand() % 2;
+        int aleatorio = rand() % 2; //0 From --> TO senao To >> from
 
         //Bloqueando a região crítica
         pthread_mutex_lock(&mutex);
 
+	transacoes++;
         if(from.saldo >= valor && aleatorio == 0){
                 printf("Conta FROM -->> %d -->>  Conta TO\n",valor);
                 from.saldo -= valor;
@@ -44,6 +51,12 @@ void  *transferencia(void *threadId){
 
 
 int main(int argc, char* argv[]){
+	//Se o usuario não passar a quantidade certa de argumento
+	if(argc != 2){
+		fprintf(stderr,"Numero de argumentos inválidos \n"); 
+	}	
+
+	//Arg1 define o numero de threads que serão usadas
         int THREADS = atoi(argv[1]);
         if(THREADS  > 100){
                 printf("O numero de threads  excedeu o limite de operações[max 100]");
@@ -78,11 +91,11 @@ int main(int argc, char* argv[]){
                 }
         }
 
-
+	
         //Liberando Memória
         free(thread);
         pthread_mutex_destroy(&mutex);
-
-        printf("Fim das transações");
+	printf("Quantidade de transações = %d\n",transacoes);
+        printf("Fim das transações\n");
         return 0;
 }
